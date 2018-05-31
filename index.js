@@ -1,5 +1,5 @@
 const enmapi = require('enmapi');
-
+const devConf = require('./dev.conf.json');
 enmapi.server.setConfig({
   Level: process.env.NODE_ENV || 'development',
   Name: process.env.NAME || 'server component repo',
